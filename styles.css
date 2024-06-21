@@ -1,0 +1,205 @@
+body {
+    background-image: url("IMMAGINI PROGETTO/pastel-yellow-vignette-concrete-textured-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+
+}
+
+
+.header img {
+    float: left;
+    width: 150px;
+    height: 150px;
+
+
+}
+
+.titolo h1 {
+    position: relative;
+    right: 6%;
+    text-align: center !important;
+    color: maroon;
+    text-decoration: solid;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.cerca * {
+    text-align: center !important;
+    position: relative;
+    right: 2%;
+
+
+}
+
+.cerca #gsearch {
+    border: darkgreen;
+    border-style: solid;
+    width: 350px;
+    height: 30px;
+}
+
+.interessi * {
+    text-align: center;
+    margin: 60px 60px;
+    background-color: white;
+
+}
+
+.pulsanti {
+    float: right !important;
+
+    position: absolute;
+    top: 50px;
+    right: 50px;
+
+}
+
+.pulsanti img {
+    width: 50px !important;
+    height: 50px !important;
+
+}
+
+.pulsanti ul>li {
+    display: inline-block !important;
+}
+
+.locandina ul>li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.navbar {
+    background-image: url("IMMAGINI PROGETTO/ciao.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    width: 580;
+}
+
+.navbar li {
+    float: left;
+    text-align: center;
+}
+
+.navbar li a {
+    display: block;
+    color: rgb(0, 0, 0);
+
+    text-decoration: underline;
+    font-weight: bolder;
+    padding: 14px 16px;
+    text-decoration-color: rgb(144, 0, 0);
+}
+
+.navbar li a:hover {
+    background-color: #ff9100;
+}
+
+.navbar2 ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    width: 580;
+}
+
+.navbar2 li {
+    float: left;
+    text-align: center;
+    position: relative;
+    left: 4%;
+}
+
+.navbar2 li a {
+    display: block;
+    color: rgb(0, 0, 0);
+
+
+
+    padding: 14px 16px;
+
+}
+
+.navbar2 li a:hover {
+    background-color: #484643;
+}
+
+.cc-content-logo {
+    size: 20px 10px;
+}
+
+.cc-content-input {
+    width: 900px;
+    height: 40px;
+    border: darkred;
+    border-style: solid;
+
+}
+
+.consigliatitesto h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(203, 3, 3);
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.consimmagini img {
+    width: 210px;
+    height: 310px;
+}
+
+.consimmagini ul>li {
+    display: inline-block;
+    padding-right: 40px;
+}
+.pulslibri img {
+    width: 20px;
+    height: 20px;
+}
+.consimmagini p {
+    text-align: center;
+}
+.pulslibri ul  { 
+    display: inline-block;
+    position: relative;
+    left: 0%;
+    text-align: center;
+}
+
+.content li {
+
+    font-weight: bold;
+    color: rgb(175, 9, 9);
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    padding: 6px;
+
+    width: 100%;
+}
+
+.footer {
+    background-color: #ffbb00;
+    color: rgb(144, 0, 0);
+    text-align: center;
+    padding: 6px;
+
+    width: 100%;
+    bottom: 0;
+}
