@@ -81,82 +81,58 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    display: flex !important;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-
+    justify-content:center;
+    display: flex
+    
 }
+      
+      /* Style the navigation bar links */
+      .navbar a {
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+        padding: 14px 20px;
+        text-decoration: none;
+        text-align: center;
+      }
+      
+      /* Change color on hover */
+      .navbar a:hover {
+        background-color: coral;
+        color: rgb(255, 255, 255);
+      }
 @media screen and (max-width: 700px) {
-    .navbar ul {   
+    .navbar {   
       flex-direction: column !important;
+      background-image: url("IMMAGINI PROGETTO/ciao.jpg");
+    background-size: cover;
+    background-repeat: repeat
+    
       
     }
   }
-
-.navbar ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    overflow: hidden;
-    width: 580;
-}
-
-.navbar li {
-    float: left;
-    text-align: center;
-}
-
-.navbar li a {
-    
-    color: rgb(0, 0, 0);
-
-    text-decoration: underline;
-    font-weight: bolder;
-    padding: 14px 16px;
-    text-decoration-color: rgb(144, 0, 0);
-}
-
-.navbar li a:hover {
-    background-color: #ff9100;
-}
 @media screen and (max-width: 700px) {
-    .navbar2 ul {   
+    .navbar2 {   
       flex-direction: column !important;
+      justify-content: center;
       
     }
   }
   .navbar2 {
-    display: flex !important;
+    justify-content:center;
+    display: flex
   }
 
-.navbar2 ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    overflow: hidden;
-    width: 580;
-}
-
-.navbar2 li {
-    float: left;
-    text-align: center;
-    position: relative;
-    left: 4%;
-}
-
-.navbar2 li a {
-    
+  .navbar2 a {
     color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 14px 20px;
+    
+    text-align: center;
+  }
 
-
-
-    padding: 14px 16px;
-
-}
-
-.navbar2 li a:hover {
+.navbar2 a:hover {
     background-color: #484643;
+    color: white;
 }
 
 .cc-content-logo {
