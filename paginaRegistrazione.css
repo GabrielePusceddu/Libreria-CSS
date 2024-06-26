@@ -1,0 +1,90 @@
+  body {
+      background-image: url("IMMAGINI PROGETTO/pastel-yellow-vignette-concrete-textured-background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+  }
+  .navbar {
+    background-image: url("IMMAGINI PROGETTO/ciao.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    display: flex
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: coral;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        flex-direction: column !important;
+        background-image: url("IMMAGINI PROGETTO/ciao.jpg");
+        background-size: cover;
+        background-repeat: repeat
+    }
+}
+
+  #titolo {
+      font-size: medium;
+      font-style: normal;
+
+
+  }
+
+  .fontFamily {
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .info {
+      font-size: smaller;
+      font-style: italic;
+
+  }
+
+
+
+
+  p {
+      text-align: center;
+  }
+
+  .form {
+      position: relative;
+     right: 40%;
+  }
+
+  #intestazione {
+      position: relative;
+      top: 50%;
+      left: 50%;
+
+
+  }
+
+  #corpo {
+      position: relative;
+      left: 50%;
+  }
+
+  fieldset {
+      width: 200px;
+
+  }

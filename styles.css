@@ -46,7 +46,7 @@ body {
 }
 
 .cerca #gsearch {
-    border: darkgreen;
+    border: rgb(255, 208, 0);
     border-style: solid;
     width: 350px;
     height: 30px;
@@ -88,54 +88,54 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    justify-content:center;
+    justify-content: center;
     display: flex
-    
 }
-      
-      /* Style the navigation bar links */
-      .navbar a {
-        color: rgb(0, 0, 0);
-        font-weight: bolder;
-        padding: 14px 20px;
-        text-decoration: none;
-        text-align: center;
-      }
-      
-      /* Change color on hover */
-      .navbar a:hover {
-        background-color: coral;
-        color: rgb(255, 255, 255);
-      }
-@media screen and (max-width: 700px) {
-    .navbar {   
-      flex-direction: column !important;
-      background-image: url("IMMAGINI PROGETTO/ciao.jpg");
-    background-size: cover;
-    background-repeat: repeat
-    
-      
-    }
-  }
-@media screen and (max-width: 700px) {
-    .navbar2 {   
-      flex-direction: column !important;
-     
-      
-    }
-  }
-  .navbar2 {
-    justify-content:center;
-    display: flex
-  }
 
-  .navbar2 a {
+/* Style the navigation bar links */
+.navbar a {
     color: rgb(0, 0, 0);
     font-weight: bolder;
     padding: 14px 20px;
-    
+    text-decoration: none;
     text-align: center;
-  }
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: coral;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 700px) {
+    .navbar {
+        flex-direction: column !important;
+        background-image: url("IMMAGINI PROGETTO/ciao.jpg");
+        background-size: cover;
+        background-repeat: repeat
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbar2 {
+        flex-direction: column !important;
+
+
+    }
+}
+
+.navbar2 {
+    justify-content: center;
+    display: flex
+}
+
+.navbar2 a {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 14px 20px;
+
+    text-align: center;
+}
 
 .navbar2 a:hover {
     background-color: #484643;
@@ -172,14 +172,17 @@ body {
     display: inline-block;
     padding-right: 40px;
 }
+
 .pulslibri img {
     width: 20px;
     height: 20px;
 }
+
 .consimmagini p {
     text-align: center;
 }
-.pulslibri ul  { 
+
+.pulslibri ul {
     display: inline-block;
     position: relative;
     left: 0%;
@@ -199,15 +202,16 @@ body {
     width: 100%;
 }
 
-.footer{
-    background-color: #222222 ;
-    background-size: 1000px 1000px ;
-    
+.footer {
+    background-color: #222222;
+    background-size: 1000px 1000px;
+
     color: rgb(255, 255, 255);
     display: flex !important;
     justify-content: space-around !important;
-    
+
 }
+
 @media screen and (max-width:800px) {
     .footer {
         display: flex;
@@ -217,6 +221,8 @@ body {
         align-content: center;
     }
 }
+
+
 @media screen and (max-width:800px) {
     .orari {
         display: flex;
@@ -226,6 +232,7 @@ body {
         align-content: center;
     }
 }
+
 @media screen and (max-width:800px) {
     .social {
         display: flex;
@@ -235,6 +242,7 @@ body {
         align-content: center;
     }
 }
+
 @media screen and (max-width:800px) {
     .pagamenti {
         display: flex;
@@ -244,6 +252,7 @@ body {
         align-content: center;
     }
 }
+
 @media screen and (max-width:800px) {
     .contatti {
         display: flex;
@@ -253,66 +262,80 @@ body {
         align-content: center;
     }
 }
+
 .social {
     text-align: center;
     float: left;
-    
+
 }
+
 .social img {
-    
+
     width: 30px;
     height: 30px;
 }
+
 .social ul {
     list-style-type: none;
-    
+
 }
-.contatti  {
+
+.contatti {
     color: white;
 }
+
 .contatti p {
     position: relative;
     left: 150px;
-    
+
 }
+
 .contatti ul {
-    
+
     list-style-type: none;
     position: relative;
     right: 50px;
     height: 200px;
-    
-    
+
+
 }
+
 .contatti ul>li {
     padding-bottom: 8px;
 }
+
 .contatti a {
     color: white;
     font-weight: bolder;
 }
+
 .contatti table {
     position: relative;
     text-align: center;
     color: white;
     height: 30px;
 }
+
 .orari {
     color: white;
-    
+
 }
+
 .orari table {
     color: white;
     position: relative;
     right: 50px;
 }
+
 .pagamenti {
     color: white;
 
 }
+
 .pagamenti ul {
     list-style-type: none;
 }
+
 .pagamenti img {
     width: 60px;
     height: 50px;
