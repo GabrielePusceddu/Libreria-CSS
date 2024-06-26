@@ -28,6 +28,7 @@ body {
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
+    font-family: "Poppins", sans-serif;;
 }
 
 /* Change color on hover */
@@ -129,7 +130,6 @@ textarea {
     color: rgb(255, 255, 255);
     display: flex !important;
     justify-content: space-around !important;
-    margin-top: 50px;
 
 }
 
@@ -256,6 +256,7 @@ textarea {
 .contatti p {
     position: relative;
     left: 150px;
+    font-family: "Poppins", sans-serif;;
 
 }
 
@@ -271,11 +272,13 @@ textarea {
 
 .contatti ul>li {
     padding-bottom: 8px;
+    font-family: "Poppins", sans-serif;
 }
 
 .contatti a {
     color: white;
     font-weight: bolder;
+    font-family: "Poppins", sans-serif;;
 }
 
 .contatti table {
@@ -287,6 +290,7 @@ textarea {
 
 .orari {
     color: white;
+    font-family: "Poppins", sans-serif;;
 
 }
 
@@ -294,10 +298,12 @@ textarea {
     color: white;
     position: relative;
     right: 50px;
+    font-family: "Poppins", sans-serif;;
 }
 
 .pagamenti {
     color: white;
+    font-family: "Poppins", sans-serif;;
 
 }
 
