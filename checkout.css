@@ -112,3 +112,201 @@ textarea {
     position: absolute;
     left: 50%;
 }
+.submit {
+    margin-bottom: 100px;
+}
+@media screen and (max-width:800px) {
+   .submit {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+   }    
+}
+.footer {
+    background-color: #222222;
+    background-size: 1000px 1000px;
+
+    color: rgb(255, 255, 255);
+    display: flex !important;
+    justify-content: space-around !important;
+    margin-top: 50px;
+
+}
+
+@media screen and (max-width:800px) {
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    .orari {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .social {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .pagamenti {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .contatti {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-content: center !important;
+        align-items: center !important;
+    }
+}
+@media screen and (max-width:800px) {
+    .contatti ul {
+        display: flex;
+        
+        flex-direction: column !important;
+        justify-content: center !important;
+        
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width:800px) {
+    .contatti p {
+        display: flex;
+        margin-right: 60%;
+        
+        flex-direction: column !important;
+        justify-content: center !important;
+        
+      
+    }
+}
+@media screen and (max-width:800px) {
+    .orari {
+        display: flex;
+        
+        flex-direction: column !important;
+        justify-content: center !important;
+        
+       
+    }
+}
+@media screen and (max-width:800px) {
+    .orari table {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin-left: 20%;
+        }
+}
+@media screen and (max-width:800px) {
+    .orari p {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        margin-left: 20%;
+        }
+}
+
+.social {
+    text-align: center;
+    float: left;
+
+}
+
+.social img {
+
+    width: 30px;
+    height: 30px;
+}
+
+.social ul {
+    list-style-type: none;
+
+}
+
+.contatti {
+    color: white;
+}
+
+.contatti p {
+    position: relative;
+    left: 150px;
+
+}
+
+.contatti ul {
+
+    list-style-type: none;
+    position: relative;
+    right: 50px;
+    height: 200px;
+
+
+}
+
+.contatti ul>li {
+    padding-bottom: 8px;
+}
+
+.contatti a {
+    color: white;
+    font-weight: bolder;
+}
+
+.contatti table {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 30px;
+}
+
+.orari {
+    color: white;
+
+}
+
+.orari table {
+    color: white;
+    position: relative;
+    right: 50px;
+}
+
+.pagamenti {
+    color: white;
+
+}
+
+.pagamenti ul {
+    list-style-type: none;
+}
+
+.pagamenti img {
+    width: 60px;
+    height: 50px;
+
+}
