@@ -47,6 +47,7 @@ body {
     border-style: solid;
     width: 350px;
     height: 30px;
+    border-radius: 12px;
   
 }
 
@@ -107,7 +108,7 @@ body {
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
-    font-family: "Poppins", sans-serif;;
+    font-family: "Poppins", sans-serif;
 }
 
 /* Change color on hover */
@@ -165,6 +166,7 @@ body {
     height: 40px;
     border: darkred;
     border-style: solid;
+    
 
 }
 

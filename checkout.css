@@ -75,10 +75,10 @@ fieldset {
 */
 
 .contenitoresx {
-    text-align: left;
+    text-align: center;
     align-items: center;
     display: flex;
-    flex: 15%;
+    justify-content: center;
 }
 
 .contenitoredx {
@@ -86,6 +86,11 @@ fieldset {
     display: flex;
     flex: 85%;
 
+}
+.intro p {
+     text-align: center;
+     position: relative;
+     
 }
 
 /*.compilazione{ 
@@ -130,6 +135,7 @@ textarea {
     color: rgb(255, 255, 255);
     display: flex !important;
     justify-content: space-around !important;
+    margin-top: 100px;
 
 }
 
